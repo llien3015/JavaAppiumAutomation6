@@ -43,7 +43,7 @@ public class Platform {
         capabilities.setCapability("automationName", "Appium");
         capabilities.setCapability("appPackage", "org.wikipedia");
         capabilities.setCapability("appActivity", ".main.MainActivity");
-        capabilities.setCapability("appium:automationName", "UiAutomator2");
+        capabilities.setCapability("automationName", "UiAutomator2");
         capabilities.setCapability("app", "/Users/admin/Desktop/JavaAppiumAutomation2/JavaAppiumAutomation2/apks/org.wikipedia.apk");
     return capabilities;
     }
@@ -55,7 +55,7 @@ public class Platform {
         capabilities.setCapability("deviceName", "iPhone 14");
         capabilities.setCapability("platformVersion", "16.4");
         capabilities.setCapability("app", "/Users/admin/Desktop/JavaAppiumAutomation iOS/JavaAppiumAutomation2/apks/Wikipedia690.app");
-        capabilities.setCapability("appium:automationName", "XCUITest");
+        capabilities.setCapability("automationName", "XCUITest");
         return capabilities;
     }
     private boolean isPlatform(String my_platform)
